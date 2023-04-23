@@ -6,8 +6,8 @@ build:
     python:
       #Install our python package befor building the docs
       install:
-        method: pip
-        path: .
+        - method: pip
+          path: .
 
 sphinx:
   fail_on_warning: true
