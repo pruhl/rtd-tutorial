@@ -7,7 +7,6 @@ build:
       #Install our pytgon package befor building the docs
       install:
         - method: pip
-        path: .
 
 sphinx:
   fail_on_warning: true
