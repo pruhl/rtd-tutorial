@@ -5,7 +5,7 @@ build:
   tools:
     python: "3.8"
       install:
-          method: pip
+        method: pip
 
 sphinx:
   fail_on_warning: true
